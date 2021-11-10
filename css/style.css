@@ -582,11 +582,26 @@
                 margin-right: auto;
                 display: block;
             }
+            .award ul li img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .awrd-icon {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
         
         @media (min-width: 720px) and (max-width:1023px) {
             .button-group {
                 display: none;
+            }
+            .awrd-icon {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
             .navigation ul li {
                 margin: 10px;
@@ -647,5 +662,13 @@
             } */
             .contact {
                 height: 400px;
+            }
+            .support-left {
+                height: 670px;
+            }
+            .support-right img {
+                width: 80%;
+                height: 80%;
+                margin-top: 3em;
             }
         }
