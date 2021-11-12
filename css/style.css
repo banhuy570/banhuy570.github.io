@@ -428,6 +428,7 @@
             -webkit-text-fill-color: transparent;
             font-family: var(--logo-text-font);
             font-weight: bold;
+            font-size: 14px;
         }
         /*Footer*/
         
@@ -475,6 +476,10 @@
         
         .copy-right a {
             color: white;
+        }
+        
+        .copy-right-1 {
+            text-align: center;
         }
         
         .copy-right-1 a {
@@ -679,8 +684,9 @@
             .creative-right img {
                 width: 70%;
             }
+            .sologan-right {}
             .sologan-text p {
-                width: 38vh;
+                /* width: 38vh; */
                 height: auto;
             }
             .navigation ul li {
@@ -707,4 +713,20 @@
                 height: 80%;
                 margin-top: 3em;
             }
+            .button-group {
+                width: 40%;
+            }
+        }
+        /*1200px*/
+        
+        @media (min-width:1200px) {
+            .button-group {
+                width: 30%;
+            }
+            .sologan-text p {
+                width: auto;
+            }
+            /* .sologan-text p {
+                width: 22vw;
+            } */
         }
