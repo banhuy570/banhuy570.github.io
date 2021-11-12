@@ -7,7 +7,7 @@
          :root {
             --main-text-font: 'Proxima Nova';
             --logo-text-font: 'Roboto', sans-serif;
-            --main-color: #FF8A00;
+            --main-color: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
             ;
         }
         
@@ -67,7 +67,9 @@
         
         .navigation ul li a {
             font-size: 15px;
-            color: coral;
+            background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             text-decoration-line: none;
             cursor: pointer;
             /* margin-bottom: 150px; */
@@ -75,7 +77,9 @@
         
         .navigation ul li a {
             font-size: 15px;
-            color: coral;
+            background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             text-decoration-line: none;
             cursor: pointer;
             font-family: 'Roboto';
@@ -86,10 +90,6 @@
         
         .navigation ul li:first-child a {
             font-weight: bold;
-        }
-        
-        .navigation ul li:nth-child(4) a {
-            box-shadow: 0 3px coral;
         }
         
         .button-group {
@@ -349,7 +349,6 @@
         }
         
         .creative-right img {
-            width: 100%;
             height: auto;
         }
         
@@ -635,8 +634,7 @@
                 height: auto;
             }
         }
-        
-        @media screen and (min-width: 1024px) {
+        /* @media screen and (min-width: 1024px) {
             .creative-right img {
                 width: 80%;
             }
@@ -657,9 +655,7 @@
             .support p {
                 height: auto;
             }
-            /* .creative-team {
-                height: auto;
-            } */
+          
             .contact {
                 height: 400px;
             }
@@ -671,4 +667,4 @@
                 height: 80%;
                 margin-top: 3em;
             }
-        }
+        } */
