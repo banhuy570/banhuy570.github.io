@@ -72,16 +72,6 @@
                     -webkit-text-fill-color: transparent;
                     text-decoration-line: none;
                     cursor: pointer;
-                    /* margin-bottom: 150px; */
-                }
-                
-                .navigation ul li a {
-                    font-size: 15px;
-                    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    text-decoration-line: none;
-                    cursor: pointer;
                     font-family: 'Roboto';
                     font-style: normal;
                     font-size: 15px;
@@ -270,7 +260,7 @@
                 }
                 
                 .support p {
-                    width: 23vw;
+                    /* width: 23vw; */
                     height: 198px;
                     font-size: 14px;
                     line-height: 175.78%;
@@ -377,7 +367,7 @@
                 }
                 
                 .creative-team p {
-                    width: 22vw;
+                    /* width: 22vw; */
                     height: 198px;
                     font-size: 14px;
                     line-height: 175.78%;
@@ -511,6 +501,7 @@
                     .sologan-right .sologan-text p {
                         font-size: 14px;
                         height: auto;
+                        max-width: 90%;
                     }
                     .sologan-text p {
                         width: 100%;
@@ -547,6 +538,9 @@
                     .button-group {
                         display: none;
                     }
+                    .contact {
+                        display: flex;
+                    }
                     .contact-left h1 {
                         font-size: 30px;
                         height: auto;
@@ -557,7 +551,7 @@
                         height: auto;
                     }
                     .contact-left {
-                        /* max-width: 100vw; */
+                        width: 100%;
                         height: auto;
                     }
                     .creative-right img {
@@ -601,7 +595,7 @@
                         /* width: 100vw; */
                     }
                     .intro-cta>div {
-                        max-width: 100vw;
+                        max-width: 100%;
                     }
                     .intro-cta p {
                         font-size: 14px;
@@ -658,6 +652,9 @@
                     }
                     .award {
                         height: auto;
+                    }
+                    .award-items {
+                        grid-template-columns: repeat(2, 1fr);
                     }
                     .navigation ul {
                         width: 70%;
@@ -751,6 +748,15 @@
                     }
                     .sologan-text p {
                         width: auto;
+                    }
+                    .support-left-w-50 {
+                        width: 55%;
+                    }
+                    .creative-left>div {
+                        width: 55%;
+                    }
+                    .contact-left {
+                        margin-left: 50px;
                     }
                     /* .sologan-text p {
                 width: 22vw;
