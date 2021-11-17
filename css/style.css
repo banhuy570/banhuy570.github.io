@@ -651,6 +651,9 @@
                         align-items: center;
                         justify-content: center;
                     }
+                    .copy-right {
+                        text-align: center;
+                    }
                 }
                 
                 @media (min-width: 792px) and (max-width:1023px) {
@@ -774,6 +777,9 @@
                     .logo-header {
                         width: 16%;
                     }
+                    .creative-right img {
+                        width: 96%;
+                    }
                 }
                 
                 @media (max-width:360px) {
@@ -805,5 +811,20 @@
                     }
                     .img-1 {
                         object-position: 0 60px;
+                    }
+                }
+                
+                @media (max-width:987px) {
+                    .copy-null {
+                        display: none;
+                    }
+                    /* .copy-right .div .row {
+                        flex-wrap: nowrap;
+                    } */
+                }
+                
+                @media (min-width:557px) and (max-width:768px) {
+                    .copy-right-0 {
+                        flex-wrap: nowrap;
                     }
                 }
