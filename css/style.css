@@ -867,20 +867,6 @@
                 padding-top: 15px;
                 padding-bottom: 15px;
             }
-            /* .navbar-nav .nav-item.active .nav-link,
-            .nav-link:focus,
-            .nav-link:hover {
-                background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-weight: 900;
-            } */
-            /*             
-            .nav-link:focus {
-                background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            } */
             
             .navbar-toggler {
                 border: 0;
